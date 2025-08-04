@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// Supongamos que se proporciona una secuencia de números
-	sec := []int{5, 3, 0, 2, 4, 4, 0, 0, 2, 3, 6, 0, 2}
+	sec := [...]int{5, 3, 0, 2, 4, 4, 0, 0, 2, 3, 6, 0, 2}
 	cantidadCeros := 0
 
 	for _, num := range sec {
