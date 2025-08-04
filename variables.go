@@ -32,4 +32,20 @@ func main() {
 	//Imprimir caracteres especiales
 	fullname := "Cristian \t(alias \"Cris\")\n"
 	fmt.Println("Nombre completo:", fullname)
+
+	//valores por defecto de variables
+	// En Go, las variables no inicializadas tienen valores por defecto.
+	var (
+		defaultInt    int
+		defaultUint   uint
+		defaultFloat  float32
+		defauultBool  bool
+		defaultString string
+	)
+	fmt.Println("Valores por defecto:")
+	fmt.Println("int:", defaultInt)
+	fmt.Println("uint:", defaultUint)
+	fmt.Println("float32:", defaultFloat)
+	fmt.Println("bool:", defauultBool)
+	fmt.Println("string:", defaultString)
 }
